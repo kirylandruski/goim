@@ -13,7 +13,7 @@ which means that two requests can't be executed simultaneously within one connec
 Installation
 ------------
 Set `GOPATH` to root directory and execute.
-Run 'dep ensure' in `src/goim` directory to install packages.
+Run `dep ensure` in `src/goim` directory to install packages.
 
 Execute `go install goim/server/cmd/server` in the root directory to get a server executable.
 
