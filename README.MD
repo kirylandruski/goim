@@ -12,13 +12,14 @@ which means that two requests can't be executed simultaneously within one connec
 
 Installation
 ------------
-Set `GOPATH` to goim directory and execute 
-`go install goim/server/cmd/server`
-which will produce a server executable in bin directory.
+Set `GOPATH` to root directory and execute.
+Run 'dep ensure' in `src/goim` directory to install packages.
 
-Execute `go install goim/auth/cmd/user_manager` in the same directory to get a user manager executable.
+Execute `go install goim/server/cmd/server` in the root directory to get a server executable.
 
-Execute `go install goim/client/cmd/benchmark` in the same directory to get a benchmark executable.
+Execute `go install goim/auth/cmd/user_manager` in the root directory to get a user manager executable.
+
+Execute `go install goim/client/cmd/benchmark` in the root directory to get a benchmark executable.
 
 Usage
 ------------

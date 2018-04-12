@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"binarize"
+	"goim/binarize"
 	"log"
 )
 

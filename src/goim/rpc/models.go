@@ -1,4 +1,4 @@
-//go:generate binarize -source models.go -destination models_binarize.go -import_binarize binarize -serialize_fname Serialize -deserialize_fname Deserialize
+//go:generate binarize -source models.go -destination models_binarize.go -import_binarize goim/binarize -serialize_fname Serialize -deserialize_fname Deserialize
 
 package rpc
 

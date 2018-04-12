@@ -3,7 +3,7 @@ package binarize
 import (
 	"io/ioutil"
 	"os"
-	"binarize/parser"
+	"goim/binarize/parser"
 	"sort"
 )
 

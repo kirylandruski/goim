@@ -4,7 +4,7 @@
 		
 package rpc
 		
-import "binarize"
+import "goim/binarize"
 import "errors"
 
 func (s *LoginRequest) Serialize() []byte {
